@@ -3,7 +3,25 @@ html {	background-color: #bcbcbc;
 
 body {margin:auto; max-width: 700px;}
 
-div { background-color: #e3e3e3; 
+
+
+main { background-color: #e3e3e3; 
+border: 1px solid black;
+text-align: center;
+}
+
+footer { background-color: #e3e3e3; 
+border: 1px solid black;
+text-align: center;
+}
+
+
+section { background-color: #e3e3e3; 
+border: 1px solid black;
+text-align: center;
+}
+
+aside { background-color: #e3e3e3; 
 border: 1px solid black;
 text-align: center;
 }
