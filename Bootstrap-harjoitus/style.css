@@ -1,0 +1,56 @@
+html { 
+	font-family: 'DM Sans', sans-serif;
+	color: #424B54;
+	background:	lightgrey;
+}
+
+body {
+	background:	lightgrey;
+	
+}
+h1.display-5.fw-bold {
+    color: lightpink;
+}
+
+button.btn.btn-primary.btn-lg.px-4.gap-3 {
+    background: lightpink;
+    border-color: pink;
+}
+
+.row {
+    background: lightgrey;
+    text-align: center;
+	margin: 5px;
+}
+
+.card {
+	margin: 5px;
+	
+}
+button.btn.btn-warning {
+    background: pink;
+    border-color: pink;
+}
+
+.card.shadow-sm {
+    background: grey;
+    margin: 20px 0px 20px 0px;
+}
+
+.col-md-6 {
+    margin: 15px 0px 15px 0px;
+}
+
+button.btn.btn-sm.btn-outline-secondary {
+    background: lightgrey;
+    color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+article {
+    margin: 35px 0px 35px 0px;
+}
+
