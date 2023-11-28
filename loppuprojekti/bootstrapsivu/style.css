@@ -9,7 +9,7 @@ h1.display-5.fw-bold {
 }
 
 button.btn.btn-primary.btn-lg.px-4.gap-3 {
-    background: #a7c957;
+    background: #386641;
     border-color: #6a994e;
 }
 
@@ -25,13 +25,14 @@ button.btn.btn-primary.btn-lg.px-4.gap-3 {
 	
 }
 button.btn.btn-warning {
-    background: #a7c957;
-    border-color: #6a994e;
+    background: #bc4749;
+    border-color: #bc4749;
 }
 
 .card.shadow-sm {
-    background: #a7c957;
+    background: linear-gradient(to right, #bc4749, #386641, #bc4749);
     margin: 20px 0px 20px 0px;
+    color: #f2e8cf;
 }
 
 .col-md-6 {
@@ -39,13 +40,14 @@ button.btn.btn-warning {
 }
 
 button.btn.btn-sm.btn-outline-secondary {
-    background: #f2e8cf;
-    color: #bc4749;
+    background: #386641;
+	border-color: #bc4749;
+    color: black;
 }
 
 button.btn.btn-outline-secondary.btn-lg.px-4 {
-    background: #a7c957;
-	color: #386641;
+    background: #bc4749;
+	color: black;
 
 .container {
     text-align: center;
@@ -61,4 +63,3 @@ article {
 h2 {
     margin: 20px;
 }
-
