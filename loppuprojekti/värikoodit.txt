@@ -1,0 +1,16 @@
+tausta: #f2e8cf
+teksti:	#bc4749
+
+toinen tausta: #a7c957
+toinen teksti: #386641
+
+border color: 6a994e
+
+
+
+
+Otsikko font:
+font-family: 'Alex Brush', cursive;
+
+Muu teksti:
+font-family: 'Open Sans', sans-serif;

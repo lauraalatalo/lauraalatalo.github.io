@@ -1,19 +1,16 @@
-html { 
-	font-family: 'DM Sans', sans-serif;
-	color: #424B54;
-	background:	lightgrey;
-}
 
 body {
 	background:	lightgrey;
 	
 }
 h1.display-5.fw-bold {
-    color: lightpink;
+    color: #ed92a0;
+	font-size: 75px;
+	font-family: 'DM Serif Display', serif;
 }
 
 button.btn.btn-primary.btn-lg.px-4.gap-3 {
-    background: lightpink;
+    background: #ec9da9;
     border-color: pink;
 }
 
@@ -57,6 +54,6 @@ article {
 
 }
 
-h2 {
-    margin: 20px;
+ol, ul {
+    padding-left: 0;
 }

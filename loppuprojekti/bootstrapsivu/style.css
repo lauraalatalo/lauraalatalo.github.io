@@ -1,0 +1,64 @@
+
+h1.display-5.fw-bold {
+    color: #bc4749;
+}
+
+h1.display-5.fw-bold {
+    font-size: 60px;
+	font-family: 'Alex Brush', cursive, sans-serif;
+}
+
+button.btn.btn-primary.btn-lg.px-4.gap-3 {
+    background: #a7c957;
+    border-color: #6a994e;
+}
+
+.row {
+    background: #f2e8cf;
+    text-align: center;
+	margin: 0px;
+
+}
+
+.card {
+	margin: 5px;
+	
+}
+button.btn.btn-warning {
+    background: #a7c957;
+    border-color: #6a994e;
+}
+
+.card.shadow-sm {
+    background: #a7c957;
+    margin: 20px 0px 20px 0px;
+}
+
+.col-md-6 {
+    margin: 15px 0px 15px 0px;
+}
+
+button.btn.btn-sm.btn-outline-secondary {
+    background: #f2e8cf;
+    color: #bc4749;
+}
+
+button.btn.btn-outline-secondary.btn-lg.px-4 {
+    background: #a7c957;
+	color: #386641;
+
+.container {
+    text-align: center;
+}
+
+article {
+    margin: 50px;
+	border-radius: 10px;
+	font-family: 'DM Sans', sans-serif;
+
+}
+
+h2 {
+    margin: 20px;
+}
+
