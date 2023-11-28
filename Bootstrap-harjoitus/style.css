@@ -51,6 +51,12 @@ button.btn.btn-sm.btn-outline-secondary {
 }
 
 article {
-    margin: 35px 0px 35px 0px;
+    margin: 50px;
+	border-radius: 10px;
+	font-family: 'DM Sans', sans-serif;
+
 }
 
+h2 {
+    margin: 20px;
+}
