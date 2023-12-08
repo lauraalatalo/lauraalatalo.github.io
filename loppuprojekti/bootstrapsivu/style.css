@@ -2,8 +2,13 @@ header {
 	background-image: url('wallpaper.jpg');
 	background-size: cover;
 	background-position: top center;
-	height: 245px;
-	
+	height: 245px;	
+}
+
+html, body	{
+	background: #a1c9be;
+	font-family: 'Open Sans', sans-serif;
+	color:	#163620;
 }
 
 h1 {
@@ -32,7 +37,7 @@ button.btn.btn-primary.btn-lg.px-4.gap-3::before,
 button.btn.btn-primary.btn-lg.px-4.gap-3::after {
     content: '\2605'; /
     position: absolute;
-    font-size: 24px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -116,7 +121,6 @@ button.btn.btn-warning {
     color: black;	/*kortin tekstin väri*/
 	padding: 10px;
 	margin-bottom: 20px;
-	height:	440px;
 }
 
 
@@ -137,20 +141,20 @@ article {
 
 }
 
-
 main.container-fluid {
     background: #a1c9be;
 }
 
-.card-img-top svg {
-  width: 250px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.card-img-top image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 div#hanging-icons {
     background: #a1c9be;
+	font-family: 'Open Sans', sans-serif;
+	color:	#163620;
 }
 
 a.btn.btn-primary {
@@ -159,18 +163,15 @@ a.btn.btn-primary {
     color: #F2E8CF;
 }
 
-
 .card {
-        display: flex;
-        flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-
-.card img {
-        max-width: 100%;
-        height: auto;
-}
-
 
 footer {
 	background:	#a1c9be;
+}
+
+p.card-text, h3 {
+    font-family: 'Open Sans', sans-serif;
 }

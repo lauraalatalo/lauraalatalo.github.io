@@ -163,10 +163,10 @@ article {
 }
 
 article h3 { 
-    padding: 2mm;
-	margin: 0px 0px 15px 0px;
+    padding: 0mm;
+	margin: 17px 0px 15px 0px;
 	font-family: 'DM Serif Display', serif;
-	color:	#3F4750;
+	color:	black;
 }
 
 article p { 
@@ -186,4 +186,14 @@ footer {
     margin: 10px 0px 30px 0px;
     text-align: center;
     background-color: #a1c9be;
+}
+
+ul {
+    padding: 0;
+}
+
+#vika {
+    background: linear-gradient(to right, #3a7b6c, #55daac, #3a7b6c);
+    /* lineargradient suuntaan oikealle (#ff9999 -> #99ff99) */
+    transition: background 1s ease; /* taustan siirtymäaika ja animaatiofunktio */
 }
