@@ -1,10 +1,189 @@
-h1	{
-	font-size: 80px;
-	font-family: 'Alex Brush', cursive, sans-serif;
-	color: #bc4749;
+header {
+	background-image: url('wallpaper.jpg');
+	background-size: cover;
+	background-position: top center;
+	height: 245px;
+	
 }
 
-html {
+body { 
+	max-width: 1000px;
+	margin: auto; /*tämä keskittää body-tagin sivusuunnassa*/
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Alex Brush', cursive, sans-serif;
+	text-align: center;
+	color:	#B44244;
+    position: relative;
+    bottom: -160px;
+}
+
+html	{
+	background: #a1c9be;
 	font-family: 'Open Sans', sans-serif;
-	background:	#f2e8cf;
+	color:	#163620;
+}
+
+#main-menu { 
+	list-style-type: none;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	margin:	20px auto;
+	padding-inline-start: 0px;
+	background-color: #2c7665;
+    border: 1px solid #424B54;	
+}
+
+#main-menu li {	
+	margin: 7px 0px 7px 0px;
+}
+
+#main-menu a { 
+	text-decoration: none; /*poistaa linkin alleviivauksen*/
+	border-radius: 5px;
+	padding:	2px 4px 2px 4px;
+	color:	#FFE7D3;
+	position: relative;
+}
+
+#main-menu a:hover { /*Valikon linkki kun kursori päällä*/
+	color: black; 
+	background-color: #a1c9be;
+	box-shadow: 0px 2px 10px rgba(0,0,0,50%);
+	transition: background-color 1s ease;
+}
+
+#main-menu a::before,
+#main-menu a::after {
+  content: "\2605"; /*tähti-symboli */
+  color: gold;
+  position: absolute;
+  top: -1mm;
+  bottom: 0;
+  margin: auto;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+#main-menu a::before {
+  left: -3mm;
+}
+
+#main-menu a::after {
+  right: -3mm;
+}
+
+#main-menu a:hover::before,
+#main-menu a:hover::after {
+  opacity: 1;
+}
+
+.joulu-askartelut-container {
+	width: 100%;
+	background-color: #a1c9be;
+	overflow: hidden;
+	text-align: center;
+	padding: 0px 20px 20px 20px;
+}
+
+.joulu-askartelut {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h2	{
+	font-size:	40px;
+	margin: 10px;
+}
+
+
+
+.button { 
+	display: block;
+	margin: 24px auto 33px;
+	background-color: #2c7665;
+	color:	#FFE7D3;
+	width:	80px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,50%); 
+	border-radius: 5px;
+	position: relative;
+	text-align: center;
+}
+
+.button::before,
+.button::after {
+  content: "\2605"; /*tähti-symboli */
+  color: gold;
+  position: absolute;
+  top: -1mm;
+  margin: auto;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.button::before {
+  left: -3mm;
+}
+
+.button::after {
+  right: -3mm;
+}
+
+.button:hover::before,
+.button:hover::after {
+  opacity: 1;
+}
+
+.button:hover {
+  color: black;
+  background-color: #a1c9be;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 50%);
+  transition: background-color 1s ease;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	text-align: center;
+	color:	black;
+
+}
+
+article {
+	max-width: 300px; 
+	margin: 2px 2px 40px 2px;
+	border: 1px solid #424B54;
+	background-color: #2c7665;
+}
+
+article h3 { 
+    padding: 2mm;
+	margin: 0px 0px 15px 0px;
+	font-family: 'DM Serif Display', serif;
+	color:	#3F4750;
+}
+
+article p { 
+	text-align: center;
+	margin:	16px 19px;
+}
+
+.article-image { 
+    width: 90%;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+
+footer {
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+    background-color: #a1c9be;
 }
